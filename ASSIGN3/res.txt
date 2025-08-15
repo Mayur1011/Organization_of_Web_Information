@@ -1,0 +1,4 @@
+GAT: CONV1
+GNN: Answer F1 = 0.389, ROUGE-L = 0.080
+BM25: Answer F1 = 0.321, ROUGE-L = 0.063
+DPR: Answer F1 = 0.406, ROUGE-L = 0.080

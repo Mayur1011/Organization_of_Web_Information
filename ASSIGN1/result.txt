@@ -1,0 +1,141 @@
+For SIAMESE:
+  used google colab for Training : T4 GPU (Free version)
+  data: Contains 199219 pairs of (Anchor, Pro (1)) and (Pro, Con (0))
+
+Siamese1(image):
+Training data = 2738
+Validation data = 696
+batchsize = 32
+num_epoch = 3
+
+Siamese2(image):
+Training data = 9183
+Validation data = 2296
+batchsize = 16
+num_epoch = 3
+
+Siamese4(image):
+  input data 11000
+  label_1_items 75383
+  label_0_items 34153717
+  selected_label_1 1000
+  selected_label_0 10000
+
+  No. of Training pairs : 8800
+  No. of Validation pairs : 2200
+
+  [2750/2750 32:42, Epoch 10/10]
+  Step	Training Loss
+  500	  0.074600
+  1000	0.039700
+  1500	0.017800
+  2000	0.009100
+  2500	0.006100
+
+  loss = CosineSimilarityLoss
+
+Siamese5:
+
+Step	Training Loss
+500	0.128300
+1000	0.094600
+1500	0.082400
+2000	0.076500
+2500	0.079200
+3000	0.074900
+3500	0.064300
+4000	0.063800
+4500	0.066600
+5000	0.047000
+5500	0.048100
+6000	0.049700
+6500	0.033200
+7000	0.033100
+7500	0.035400
+8000	0.024500
+8500	0.024300
+9000	0.025500
+9500	0.018400
+10000	0.019800
+10500	0.019300
+11000	0.014100
+11500	0.016000
+12000	0.016700
+12500	0.013700
+13000	0.014000
+13500	0.014300
+14000	0.012200
+14500	0.012200
+15000	0.011900
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For TRIPLET:
+
+
+Triplet1(image):
+Training data = 800
+batchsize = 16
+epochs = 3
+
+Triplet2(image):
+Training data = 1000
+epochs = 3
+batchsize = 16
+
+Triplet3(image):
+Training data = 10000
+
+Triplet4(image):
+Step	Training Loss
+500	4.489600
+1000	4.356600
+1500	4.338600
+2000	4.323900
+2500	4.330800
+3000	4.269600
+3500	4.245000
+4000	4.243600
+4500	4.232100
+5000	4.228200
+5500	4.258800
+6000	4.233300
+6500	4.201900
+7000	4.216700
+7500	4.256100
+8000	4.180800
+8500	4.181900
+9000	4.216400
+9500	4.184300
+10000	4.155600
+10500	4.158400
+11000	4.193900
+11500	4.182700
+12000	4.163000
+12500	4.165000
+13000	4.164500
+13500	4.158000
+14000	4.111400
+14500	4.111300
+15000	4.130600
+15500	4.113500
+
+
+
+
+
+  
+
